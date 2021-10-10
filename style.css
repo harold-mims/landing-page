@@ -1,0 +1,195 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the Header and the Footer */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10vw;
+}
+
+.right-header .left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 24px;
+}
+
+.left-header {
+    font-size: 24px;
+}
+
+.right-header {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.footer, .header, .content1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+}
+
+/* Style for content 1 of the body */
+.content1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5vh 10vw 10vh;
+    gap: 92px;
+
+    flex: 0 0 auto;
+
+}
+
+#img1 {
+    height: 40vh;
+    width: auto;
+}
+
+#content1-left {
+    text-align: start;
+    font-size: 18px;
+    color: #e5e7eb
+
+}
+
+#content1-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#button1 {
+    background-color: #3882f8;
+    color: #e5e7eb;
+    font-size: 18px;
+
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+    
+}
+
+/* Style for content 2 and cards */
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content2-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 5vh 10vw 10vh;
+    gap: 48px;
+
+}
+
+.card {
+    width: 175px;
+    text-align: center;
+
+}
+
+.card-image {
+    height: 175px;
+    width: 175px;
+
+    border: 5px solid #3882f8;
+    border-radius: 10px;
+}
+
+/* Style for content 3 */
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+
+    padding: 10vh 15vw
+}
+
+#quote-author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style for Call To Action */
+.call-to-action {
+    color: #e5e7eb;
+    background-color: #3882f8;
+    border-radius: 5px;
+    margin: 10vh 10vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#call-to-action-left {
+    padding: 16px;
+    margin-left: 10vw
+}
+
+#call-to-action-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
+
+#call-to-action-text {
+    margin-top: 0px;
+}
+
+#button2 {
+    background-color: #3882f8;
+    color: #e5e7eb;
+    font-size: 18px;
+
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 8px 25px;
+    margin-right: 10vw;
+    
+}
+
+
+/* Style for links and lists */
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+    list-style: none;
+
+}
