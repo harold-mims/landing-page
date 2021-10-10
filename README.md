@@ -1,4 +1,6 @@
+This landing page was created for the Odin Project's landing page assignment.
 
+There's definitely more efficient ways to immplement everything I did, and I undoubtably made multiple mistakes throughout the process but it's impossible to learn without making mistakes along the way. 
 
 Photo credits:
 https://unsplash.com/photos/9RtQgt09fck
